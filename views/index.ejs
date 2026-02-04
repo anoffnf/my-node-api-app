@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Dog API App</title>
+    <style>
+        body { text-align: center; font-family: sans-serif; padding: 50px; }
+        img { max-width: 500px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
+        button { padding: 10px 20px; font-size: 16px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>今日のわんこ</h1>
+    
+    <div>
+        <img src="<%= dogImageUrl %>" alt="犬の画像">
+    </div>
+    
+    <br>
+    <button onclick="location.reload()">更新</button>
+</body>
+</html>
